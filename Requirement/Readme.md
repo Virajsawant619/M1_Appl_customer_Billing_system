@@ -52,7 +52,10 @@ LOW LEVEL REQUIREMENTS :
 
 SWOT ANALYSIS :
 
-.strength - faster Operation
-.Weakness - nil
-.Opportunity - nil
-Threat - nil
+* strength - faster Operation
+
+* Weakness - nil
+
+* Opportunity - nil
+
+* Threat - nil
