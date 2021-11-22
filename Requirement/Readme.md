@@ -5,7 +5,7 @@ gathers, sorts, and verifies customer account information,
 including usage data, payment information, adjustment information, monthly and one-time service charge information, and applies taxes.
 
 
-## HIGH LEVEL REQUIREMENTS : CUSTOMER BILLING SYSTEM ABOUT THE PROJECT : ##
+### HIGH LEVEL REQUIREMENTS : CUSTOMER BILLING SYSTEM ABOUT THE PROJECT : ###
 
 * It is a project developed especially to generate customer billing for Medical stores, Cafes, Shops, Supermarket etc
 
