@@ -13,44 +13,55 @@ including usage data, payment information, adjustment information, monthly and o
 
 * It also helps us to do the billing in less time and it also helps to reduces the queqe in the billing counter as it is time saving.
 
-FEATURES :
+### FEATURES : ###
 
-.Can able to add no.of. items,
+* Can able to add no.of. items,
 
-.Shows Purchase date,
+* Shows Purchase date,
 
-.total bill amount.
+* total bill amount.
 
-.We can also add customer details for future usage.
+* We can also add customer details for future usage.
 
-.CHARACTER ITEMS TO BE ADDED IN SUPER MARKET: OIL, ATTA, OATS, BISCUITS, SPROUTS, DRY FRITS, SUGAR and etc.
+* CHARACTER ITEMS TO BE ADDED IN SUPER MARKET: OIL, ATTA, OATS, BISCUITS, SPROUTS, DRY FRITS, SUGAR and etc.
 
-.FLOAT QUANTITY AND PRICE : MULTIPLICATION OPERATION
+* FLOAT QUANTITY AND PRICE : MULTIPLICATION OPERATION
 
-.TOTAL AMOUNT: ADDITION OPERATION
+* TOTAL AMOUNT: ADDITION OPERATION
 
-.BILLING DATE : getdate() Function
+* BILLING DATE : getdate() Function
 
-LOW LEVEL REQUIREMENTS :
+### LOW LEVEL REQUIREMENTS : ###
 
-.HEADER FILES : #include<stdio.h> for printf and scanf,#include<conio.h> for clrscr() and getch(),#include<dos.h> for getdate()
-.FLOAT VARIABLE : AMOUNT ,TOTAL
-.CHAR : ITEMS
+.
+* HEADER FILES : #include<stdio.h> for printf and scanf,#include<conio.h> for clrscr() and getch(),#include<dos.h> for getdate()
 
-.TIME AND COST :
-.It saves lot of time compared to the manual calculation in billing system.
-.It is simple and efficient.
-.There is no mis calculations during peak hours.
+* FLOAT VARIABLE : AMOUNT ,TOTAL
 
-4WIH ANALYSIS :
+* CHAR : ITEMS
 
-.What - It is an customer billing system helps supermarket employees to do billing faster.
-.Where - It Can be used in any places needs fast billing system . example: Supermarket,Medicals,Coffee Shops and etc.
-.when - anytime
-.why - To Reduce crowd in billing Counters and to keep an eye on loss of money.
-.How - after buliding perfect system , testing and executing in SuperMarkets.
+### TIME AND COST : ###
 
-SWOT ANALYSIS :
+* It saves lot of time compared to the manual calculation in billing system.
+
+* It is simple and efficient.
+
+* There is no mis calculations during peak hours.
+
+### 4WIH ANALYSIS : ###
+
+
+* What - It is an customer billing system helps supermarket employees to do billing faster.
+
+* Where - It Can be used in any places needs fast billing system . example: Supermarket,Medicals,Coffee Shops and etc.
+
+* when - anytime
+
+* why - To Reduce crowd in billing Counters and to keep an eye on loss of money.
+
+* How - after buliding perfect system , testing and executing in SuperMarkets.
+
+### SWOT ANALYSIS : ###
 
 * strength - faster Operation
 
