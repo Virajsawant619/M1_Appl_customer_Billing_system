@@ -7,11 +7,12 @@ including usage data, payment information, adjustment information, monthly and o
 
 ### HIGH LEVEL REQUIREMENTS : CUSTOMER BILLING SYSTEM ABOUT THE PROJECT : ###
 
-* It is a project developed especially to generate customer billing for Medical stores, Cafes, Shops, Supermarket etc
-
-* It also help people do the billing process without any errors.
-
-* It also helps us to do the billing in less time and it also helps to reduces the queqe in the billing counter as it is time saving.
+HLR  | Description |
+--- | --- |
+HLR1 | Check the requirements |
+HLR2 | Calculation |
+HLR3 | Discount |
+HLR4 | Billing |
 
 ### FEATURES : ###
 
@@ -33,7 +34,16 @@ including usage data, payment information, adjustment information, monthly and o
 
 ### LOW LEVEL REQUIREMENTS : ###
 
-.
+LLR  | Description |
+--- | --- |
+LLR_1 HLR_2 | Get Data from user
+LLR_2 HLR_2 | Calculate the amount
+
+LLR  | Description |
+--- | --- |
+LLR_1 HLR_3 | Check for the Discount
+LLR_2 HLR_3 | Calculate the final quantity & amount.
+LLR_3 HLR_3 | Return the total amount |
 * HEADER FILES : #include<stdio.h> for printf and scanf,#include<conio.h> for clrscr() and getch(),#include<dos.h> for getdate()
 
 * FLOAT VARIABLE : AMOUNT ,TOTAL
