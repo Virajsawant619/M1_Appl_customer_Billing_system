@@ -5,3 +5,6 @@
 
 ## Structural Diagram ##
 ![142400159-3b7ef063-5e90-474d-91a7-ef4020df4530 (1)](https://user-images.githubusercontent.com/94476845/143078446-dd463553-97ba-460d-9466-65b3c03dd3a4.jpeg)
+## Diagram 2 ##
+![Capture123](https://user-images.githubusercontent.com/94476845/143456674-6a030670-6a62-4f17-b240-9686b3b560cc.PNG)
+
