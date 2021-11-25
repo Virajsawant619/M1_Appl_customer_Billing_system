@@ -14,16 +14,16 @@ void main()
 	printf("\t\t\t\tAddress line 2\n");
 	printf("----------------------------------------------------------------------------------------------------------------\n");
 	printf("    PRODUCTS AVAILABLE AT OUR STORE:\n");
-	printf(" 1. Sunsilk Anti Dandruff Smooth and Silky Shampoo(375ml bottle) @ Rs.290.00\n\t\t@ 25%s discount\t@ 2.5%s VAT\n", "%", "%");
-	printf(" 2. V-Three casual bagpack @ Rs.745.00\n\t\t@ 50%s discount\t@ 10.5%s VAT\n", "%", "%");
-	printf(" 3. Adidas Men's T-Shirt-Red (Size L) @ Rs.275.00\n\t\t@ 30%s discount\t @ 7.25%s VAT\n", "%", "%");
-	printf(" 4. Cadbury Silk Chocolates - Pack Of 10 @ Rs.800.00\n\t\t@ 20%s discount\t @ 9%s VAT\n", "%", "%");
-	printf(" 5. Chings Chinese - Instant Noodles 100 gm @ Rs.10.00\n\t\t\t\t @ 0.25%s VAT\n", "%");
-	printf(" 6. Tupperware water bottle - 750 ml @ Rs.999.00\n\t\t@ 10%s discount\t @ 9.3%s VAT\n", "%", "%");
-	printf(" 7. Sensodyne Cavity Protection Regular Toothpaste Tube (75 ml) @ Rs.93.95\n\t\t@ 2%s discount\t@ 4.5%s VAT\n", "%", "%");
-	printf(" 8. Pepsodent Super-Flexy toothbrush @ Rs.17.00\n\t\t@ 4%s discount\t @ 3%s VAT\n", "%", "%");
-	printf(" 9. Nivia Tennis ball - Pack of 12 @ Rs.810.00\n\t\t@ 12%s discount\t @ 8.75%s VAT\n", "%", "%");
-	printf("10. Sparx Men's Free Trainer 5.0 Outdoor Multisport Training Shoes (Size 8/9/10) @ Rs.8000.00\n\t\t@ 18%s discount\t @ 14%s VAT\n", "%", "%");
+	printf(" 1. Matrix Smooth and Silky Shampoo(500ml bottle) @ Rs.390.00\n\t\t@ 25%s discount\t@ 2.5%s VAT\n", "%", "%");
+	printf(" 2. Nike shoes @ Rs.1745.00\n\t\t@ 50%s discount\t@ 10.5%s VAT\n", "%", "%");
+	printf(" 3. Puma Men's T-Shirt-Red (Size L) @ Rs.475.00\n\t\t@ 30%s discount\t @ 7.25%s VAT\n", "%", "%");
+	printf(" 4. Dettol sanitizer - Pack Of 5 @ Rs.500.00\n\t\t@ 20%s discount\t @ 9%s VAT\n", "%", "%");
+	printf(" 5. Himalaya Facewash -  100 gm @ Rs.90.00\n\t\t\t\t @ 0.25%s VAT\n", "%");
+	printf(" 6. Coke - 750 ml @ Rs.999.00\n\t\t@ 10%s discount\t @ 9.3%s VAT\n", "%", "%");
+	printf(" 7. Cinthol bath soap (100g) @ Rs.93.95\n\t\t@ 2%s discount\t@ 4.5%s VAT\n", "%", "%");
+	printf(" 8. Colgate Anti-germ toothpaste @ Rs.30.00\n\t\t@ 4%s discount\t @ 3%s VAT\n", "%", "%");
+	printf(" 9. Adidas bagpack - @ Rs.1810.00\n\t\t@ 12%s discount\t @ 8.75%s VAT\n", "%", "%");
+	printf("10. Fogg Deodrant (Qty 2) @ Rs.400.00\n\t\t@ 18%s discount\t @ 14%s VAT\n", "%", "%");
 	printf("----------------------------------------------------------------------------------------------------------------\n");
 	printf("DATE:");
 	fgets(date, 20, stdin);
@@ -37,10 +37,10 @@ void main()
 		fgets(itemcode, 5, stdin);
 		if(strcmp(itemcode, "1\n") == 0)
 		{
-			printf("\tSunsilk Anti Dandruff Smooth and Silky Shampoo(375ml bottle)\t\t\t\t   ");
+			printf("\tMatrix Smooth and Silky Shampoo(500ml bottle)\t\t\t\t   ");
 			scanf("%d", &quantity);
 			getchar();
-			rate = 290.00;
+			rate = 390.00;
 			discount = 25;
 			vat = 2.5;
 			amount1 = amount(rate, quantity, discount, vat);
@@ -50,10 +50,10 @@ void main()
 		}
 		else if(strcmp(itemcode, "2\n") == 0)
 		{
-			printf("\tV-Three casual bagpack\t\t\t\t\t\t\t\t\t   ");
+			printf("\tNike shoes\t\t\t\t\t\t\t\t\t   ");
 			scanf("%d", &quantity);
 			getchar();
-			rate = 745.00;
+			rate = 1745.00;
 			discount = 50;
 			vat = 10.5;
 			amount1 = amount(rate, quantity, discount, vat);
@@ -63,10 +63,10 @@ void main()
 		}
 		else if(strcmp(itemcode, "3\n") == 0)
 		{
-			printf("\tAdidas Men's T-Shirt-Red (Size L)\t\t\t\t\t\t\t   ");
+			printf("\tPuma Men's T-Shirt-Red(Size L)\t\t\t\t\t\t\t   ");
 			scanf("%d", &quantity);
 			getchar();
-			rate = 275.00;
+			rate = 475.00;
 			discount = 30;
 			vat = 7.25;
 			amount1 = amount(rate, quantity, discount, vat);
@@ -76,10 +76,10 @@ void main()
 		}
 		else if(strcmp(itemcode, "4\n") == 0)
 		{
-			printf("\tCadbury Silk Chocolates - Pack Of 10\t\t\t\t\t\t\t   ");
+			printf("\tDettol sanitizer - Pack Of 5\t\t\t\t\t\t\t   ");
 			scanf("%d", &quantity);
 			getchar();
-			rate = 800.00;
+			rate = 500.00;
 			discount = 20;
 			vat = 9;
 			amount1 = amount(rate, quantity, discount, vat);
@@ -89,10 +89,10 @@ void main()
 		}
 		else if(strcmp(itemcode, "5\n") == 0)
 		{
-			printf("\tChings Chinese - Instant Noodles 100gm\t\t\t\t\t\t\t   ");
+			printf("\tHimalaya Facewash- 100gm\t\t\t\t\t\t\t   ");
 			scanf("%d", &quantity);
 			getchar();
-			rate = 10.00;
+			rate = 90.00;
 			discount = 0;
 			vat = 0.25;
 			amount1 = amount(rate, quantity, discount, vat);
@@ -102,7 +102,7 @@ void main()
 		}
 		else if(strcmp(itemcode, "6\n") == 0)
 		{
-			printf("\tTupperware Bottle - 750 ml\t\t\t\t\t\t\t\t   ");
+			printf("\tCoke - 750 ml\t\t\t\t\t\t\t\t   ");
 			scanf("%d", &quantity);
 			getchar();
 			rate = 999.00;
@@ -115,7 +115,7 @@ void main()
 		}
 		else if(strcmp(itemcode, "7\n") == 0)
 		{
-			printf("\tSensodyne Cavity Protection Regular Toothpaste Tube (75 ml)\t\t\t\t   ");
+			printf("\tCinthol bath soap (100g)\t\t\t\t   ");
 			scanf("%d", &quantity);
 			getchar();
 			rate = 93.95;
@@ -128,10 +128,10 @@ void main()
 		}
 		else if(strcmp(itemcode, "8\n") == 0)
 		{
-			printf("\tPepsodent Super-Flexy toothbrush\t\t\t\t\t\t\t   ");
+			printf("\tColgate Anti-germ toothpaste\t\t\t\t\t\t\t   ");
 			scanf("%d", &quantity);
 			getchar();
-			rate = 17.00;
+			rate = 30.00;
 			discount = 4;
 			vat = 3;
 			amount1 = amount(rate, quantity, discount, vat);
@@ -141,10 +141,10 @@ void main()
 		}
 		else if(strcmp(itemcode, "9\n") == 0)
 		{
-			printf("\tNivia Tennis ball - Pack of 12\t\t\t\t\t\t\t\t   ");
+			printf("\tAdidas bagpack \t\t\t\t\t\t\t\t   ");
 			scanf("%d", &quantity);
 			getchar();
-			rate = 810.00;
+			rate = 1810.00;
 			discount = 12;
 			vat = 8.75;
 			amount1 = amount(rate, quantity, discount, vat);
@@ -154,10 +154,10 @@ void main()
 		}
 		else if(strcmp(itemcode, "10\n") == 0)
 		{
-			printf("\tSparx Men's Free Trainer 5.0 Outdoor Multisport Training Shoes (Size 8/9/10)\t\t   ");
+			printf("\tFogg Deodrant (Qty 2) \t\t   ");
 			scanf("%d", &quantity);
 			getchar();
-			rate = 8000.00;
+			rate = 400.00;
 			discount = 18;
 			vat = 14;
 			amount1 = amount(rate, quantity, discount, vat);
